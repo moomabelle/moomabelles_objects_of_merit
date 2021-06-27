@@ -1,0 +1,169 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MOOM",
+				"abbreviation": "MOOM",
+				"full": "Moomabelles's Objects of Merit",
+				"authors": [
+					"moomabelle",
+					"TruePolo"
+				],
+				"version": "0.1",
+				"convertedBy": [
+					"moomabelle"
+				]
+			}
+		]
+	},
+	"monster":   [
+    {
+  	"name": "Old Ren",
+  	"source": "Moomabelle's Objects of Merit: Strahd",
+  	"page": 1,
+  	"size": "M",
+  	"type": {
+  		"type": "humanoid",
+  		"tags": [
+  			"half-orc"
+  		]
+  	},
+  	"alignment": [
+  		"N",
+  		"G"
+  	],
+  	"ac": [
+  		{
+  			"ac": 17,
+  			"from": [
+  				"natural armor"
+  			]
+  		}
+  	],
+  	"hp": {
+  		"formula": "10d12 + 40",
+  		"average": 105
+  	},
+  	"speed": {
+  		"walk": 40
+  	},
+  	"str": 20,
+  	"dex": 14,
+  	"con": 16,
+  	"int": 10,
+  	"wis": 10,
+  	"cha": 7,
+  	"save": {
+  		"con": "+7",
+  		"str": "+9"
+  	},
+  	"skill": {
+  		"athletics": "+9",
+  		"intimidation": "+6",
+  		"perception": "+4",
+  		"survival": "+4"
+  	},
+  	"senses": [
+  		"darkvision 60 ft."
+  	],
+  	"passive": 14,
+  	"languages": [
+  		"Common",
+  		"Driudic",
+  		"Orcish",
+  		"Elvish"
+  	],
+  	"cr": "10",
+  	"trait": [
+  		{
+  			"name": "Relentless Endurance (1/Day)",
+  			"entries": [
+  				"When Old Ren is reduced to 0 hit points but not killed outright, she can drop to 1 hit point instead."
+  			]
+  		},
+  		{
+  			"name": "Brutal Savage Attacks",
+  			"entries": [
+  				"When Old Ren scores a critical hit with a melee weapon attack, she can roll two of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+  			]
+  		},
+  		{
+  			"name": "Reckless Attack",
+  			"entries": [
+  				"When Old Ren makes her first attack on her turn, she can decide to attack recklessly. Doing so gives her advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against her have advantage until her next turn."
+  			]
+  		},
+  		{
+  			"name": "Danger Sense",
+  			"entries": [
+  				"Renellia has advantage on Dexterity saving throws against effects that she can see, such as traps and spells. To gain this benefit, she can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+  			]
+  		}
+  	],
+  	"action": [
+  		{
+  			"name": "Multiattack",
+  			"entries": [
+  				"Old Ren makes three attacks with her maul or one with her heavy crossbow."
+  			]
+  		},
+  		{
+  			"name": "Maul",
+  			"entries": [
+  				"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}21 ({@damage 2d6 + 5}) bludgeoning damage, plus 14 ({@damage 4d6}) on critical damage."
+  			]
+  		},
+  		{
+  			"name": "Heavy Crossbow",
+  			"entries": [
+  				"{@atk rw} {@hit 6} to hit, range 100/400 ft., one target. {@h}13 ({@damage 1d10 + 2}) piercing damage, plus 14 ({@damage 4d6}) on critical damage."
+  			]
+  		},
+  		{
+  			"name": "Frightful Presence",
+  			"entries": [
+  				"The target must succeed a DC17 Wisdom saving throw or be {@condition frightened} until the end of Old Ren's next turn or until the creature is more than 60 feet away from Old Ren."
+  			]
+  		}
+  	],
+  	"senseTags": [
+  		"D"
+  	],
+  	"actionTags": [
+  		"Frightful Presence",
+  		"Multiattack"
+  	],
+  	"languageTags": [
+  		"C",
+  		"E"
+  	],
+  	"damageTags": [
+  		"B",
+  		"P"
+  	],
+  	"conditionInflict": [
+  		"frightened"
+  	],
+  	"conditionInflictLegendary": [
+  		"incapacitated",
+  		"poisoned",
+  		"prone"
+  	],
+  	"resist": [
+  		"bludgeoning",
+  		"piercing",
+  		"slashing"
+  	],
+  	"conditionImmune": [
+  		"charmed",
+  		"frightened"
+  	],
+  	"miscTags": [
+  		"MW",
+  		"RW",
+  		"RNG"
+  	],
+  	"shortName": true
+  }
+  ]
+}
